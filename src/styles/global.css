@@ -1,0 +1,17 @@
+/* Estilização global da página, esse vai ser o padrão em toda página */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  color: #FFF;
+  background: #ebf2f5;
+}
+
+body, input, button, textarea {
+  font: 600 18px Nunito, sans-serif; /*Jeito para estilizar a fonte em uma linha só*/
+}
+
