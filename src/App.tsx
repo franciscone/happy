@@ -2,6 +2,8 @@ import React from 'react';
 
 import './styles/global.css';
 
+import 'leaflet/dist/leaflet.css'
+
 import Routes from './routes'
 
 // JSX - JavaScript XML (Forma de Incluiir HTML em JS)
@@ -37,3 +39,7 @@ function App() {
 }
 
 export default App;
+
+
+// AS 3 COISAS MAIS IMPORTANTES EM REACT: COMPONENTE , ESTADO E PROPRIEDADES
+// ESTADO: QUALQUER TIPO DE INFORMAÇÃO QUE EU QUEIRA ARMAZENAR E MANIPULAR NO MEU COMPONENTE
