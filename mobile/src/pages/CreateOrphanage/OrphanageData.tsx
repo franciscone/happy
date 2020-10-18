@@ -54,7 +54,7 @@ export default function OrphanageData() {
 
   async function handleSelectImages(){
     //Pedir acesso a galeria de fotos do usuário
-    const {} = await ImagePicker.requestCameraRollPermissionsAsync();
+    const { status } = await ImagePicker.requestCameraRollPermissionsAsync();
 
     if (status !== 'granted'){
       alert('Eita, precisamos de acessa às suas fotos...');
@@ -114,7 +114,7 @@ export default function OrphanageData() {
         })}
       </View>
 
-      <TouchableOpacity style={styles.imagesInput} onPress={() => {}}>
+      <TouchableOpacity style={styles.imagesInput} onPress={handleSelectImages}>
         <Feather name="plus" size={24} color="#15B6D6" />
       </TouchableOpacity>
 
