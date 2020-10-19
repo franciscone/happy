@@ -13,7 +13,8 @@
 
   width: 100%;
   max-width: 1100px;
-
+  padding: 20px;
+  
   height: 100%;
   max-height: 680px;
 
@@ -23,6 +24,7 @@
   justify-content: space-between;
 
   background: url(../../images/Landing.svg) no-repeat 80% center;
+  background-size: 47%;
 }
 
 #page-landing .content-wrapper main {
@@ -45,7 +47,6 @@
   position: absolute;
 
   right: 0;
-  top: 0;
 
   font-size: 24;
   line-height: 34px;
@@ -65,6 +66,7 @@
 
   right: 0;
   bottom: 0;
+  margin-bottom: 25px;
 
   width: 80px;
   height: 80px;
